@@ -108,4 +108,16 @@ img {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
+
+}
+.logo{
+height:4em;
+}
+header{
+    display:flex;
+        align-items:center;
+    background-color:#fff1f1
+}
+header nav{
+    flex:1;
 }
