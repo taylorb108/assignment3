@@ -1,0 +1,111 @@
+* {
+    box-sizing:border-box;
+    margin: 0;
+}
+
+header {
+    margin-bottom: 100px;
+}
+
+html {
+    color: #ffffff;
+    /* set text color to white */
+    font-size: 30px;
+    font-family: "arial", "sans-serif";
+}
+
+body {
+    background-color:rgba(135, 206, 235, 0.63);
+    background-size:cover;
+    background-position: left;
+    height: 100vh;
+    /* use 100% of the view height (vh) so image doesn't repeat, but fills space instead) */
+}
+
+h1,
+h2 {
+    font-weight: 400;
+}
+
+.h1-title,
+.h2-title,
+.ul-title {
+    margin-left: 100px;
+    margin-right: 100px;
+    
+}
+
+a {
+    padding: 0px 10px 0px 0px;
+    /* only give some space to the right of anchors (links) */
+    color: #ffffff;
+    /* set anchor color to white */
+}
+
+p {
+    width: 75%;
+    max-width: 500px;
+}
+
+img {
+    padding: 0px 10px 0px 0px;
+    /* only give some space to the right of images */
+}
+
+.image-box {
+    width: 25%;
+    padding: 15px;
+    display: inline-block;
+}
+
+.section-pics {
+    background-image: linear-gradient(#ffffff, #810ec9);
+    background-color: rgba(255, 255, 255, 0.2);
+    border: 1px solid #ffffff;
+    width: 60%;
+    margin-top: 5%;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.p-quote {
+    background-color: #810aad;
+    border-radius: 25px;
+    padding: 10px;
+    width: 50%;
+    margin-top: 5%;
+    margin-right: 25%;
+    margin-left: 8%;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 300;
+}
+
+.main-nav {
+    text-transform: uppercase;
+    text-decoration-color: #810ec9;
+    font-size: 250%;
+}
+
+.section-features {
+    width: 50%;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    padding: 10px;
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.2);
+    text-align: center;
+}
+
+.bottom-logo {
+    height:50%;
+    margin-left: 225px
+}
+
+.section-pics-copy {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
