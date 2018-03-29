@@ -3,9 +3,6 @@
     margin: 0;
 }
 
-header {
-    margin-bottom: 100px;
-}
 
 html {
     color: #ffffff;
@@ -19,6 +16,8 @@ body {
     background-size:cover;
     background-position: left;
     height: 100vh;
+    display: flex;
+    flex-direction: column;
     /* use 100% of the view height (vh) so image doesn't repeat, but fills space instead) */
 }
 
@@ -79,7 +78,10 @@ img {
     margin-bottom: 20px;
     text-align: center;
     color: #ffffff;
-    font-weight: 300;
+    font-weight: 300px;
+    font-size: 30px;
+    
+  
 }
 
 .main-nav {
@@ -88,6 +90,35 @@ img {
     font-size: 250%;
 }
 
+}
+header nav{
+flex:1;
+
+}
+header nav ul{
+    display:flex;
+        justify-content:flex-start;
+}
+
+header nav li{
+    list-style: none;
+    padding: 1em:
+    
+}
+main{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    flex-direction: column;
+    font-size: 35px;
+    
+}
+.herotext{
+    padding:3em;
+    display:flex;
+    flex-direction: column;
+    flex:5;
+}
 .section-features {
     width: 50%;
     margin-left: 15%;
@@ -99,9 +130,10 @@ img {
     text-align: center;
 }
 
-.bottom-logo {
-    height:50%;
-    margin-left: 225px
+.bottom-img {
+    height:300px;
+    width: auto;
+     
 }
 
 .section-pics-copy {
@@ -116,8 +148,16 @@ height:4em;
 header{
     display:flex;
         align-items:center;
-    background-color:#fff1f1
+    background-color:#ebbebe;
+        font-size: 40px;
 }
 header nav{
     flex:1;
+}
+@media screen and (max-width:30rem){
+    header,
+    main,
+    footer {
+        flex-direction: column;
+    }
 }
