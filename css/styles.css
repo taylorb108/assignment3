@@ -23,6 +23,7 @@ body {
 
 h1,
 h2 {
+    
     font-weight: 400;
 }
 
@@ -33,6 +34,7 @@ h2 {
     margin-right: 100px;
     
 }
+
 
 a {
     padding: 0px 10px 0px 0px;
@@ -56,16 +58,18 @@ img {
     padding: 15px;
     display: inline-block;
 }
-
-.section-pics {
-    background-image: linear-gradient(#ffffff, #810ec9);
-    background-color: rgba(255, 255, 255, 0.2);
-    border: 1px solid #ffffff;
-    width: 60%;
-    margin-top: 5%;
-    margin-right: 20%;
-    margin-left: 20%;
+#pics-paragraph{
+	text-align: center;
 }
+.feature-pics{
+    display: flex;
+   justify-content: center
+}
+#puppy-paragraph{
+    text-align: center;
+    font-size: 60px
+}
+
 
 .p-quote {
     background-color: #810aad;
@@ -74,12 +78,14 @@ img {
     width: 50%;
     margin-top: 5%;
     margin-right: 25%;
-    margin-left: 8%;
+    margin-left: 25%;
     margin-bottom: 20px;
     text-align: center;
     color: #ffffff;
-    font-weight: 300px;
+    font: 300px;
     font-size: 30px;
+    display: table
+    
     
   
 }
@@ -90,7 +96,7 @@ img {
     font-size: 250%;
 }
 
-}
+
 header nav{
 flex:1;
 
@@ -102,7 +108,7 @@ header nav ul{
 
 header nav li{
     list-style: none;
-    padding: 1em:
+    padding: 1em;
     
 }
 main{
@@ -128,20 +134,16 @@ main{
     color: #ffffff;
     background-color: rgba(255, 255, 255, 0.2);
     text-align: center;
+    
 }
 
 .bottom-img {
     height:300px;
     width: auto;
-     
 }
 
-.section-pics-copy {
-    width: 80%;
-    margin-left: 10%;
-    margin-right: 10%;
 
-}
+
 .logo{
 height:4em;
 }
@@ -154,6 +156,9 @@ header{
 header nav{
     flex:1;
 }
+
+	
+
 @media screen and (max-width:30rem){
     header,
     main,
